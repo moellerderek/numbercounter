@@ -8,7 +8,7 @@
 	$numstart=0;
 	$numend=255;
 	
-echo "<h2>Counting towards"..$numend.":"."</h2>";
+echo "<h2>Counting towards". $numend.":"."</h2>";
 	
 			for ($num=$numstart; $num<=$numend; $num++)
 			{
