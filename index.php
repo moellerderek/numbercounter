@@ -11,5 +11,14 @@
 			echo $num."<br>";
 			}
 	?>
+	<br>
+	<br>
+	<br>
+	<?php
+			for ($num=255; $num<=0; $num--)
+			{
+			echo $num."<br>";
+			}
+<br>
 </body>
 </html>
