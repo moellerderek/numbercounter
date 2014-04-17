@@ -19,7 +19,7 @@
 <h2>Counting backwards from the same number</h2>
 	<br>
 	<?php
-			for ($num=255; $num>=0; $num--)
+			for ($num=$numend; $num>=$numstart; $num--)
 			{
 			echo $num."<br>";
 			}
