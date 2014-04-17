@@ -5,7 +5,7 @@
 <body>
 <?php
 
-echo "<h2>Counting backwards from"."$numend".":"."</h2>";
+echo "<h2>Counting towards".$numend.":"."</h2>";
 	
 	$numstart=0;
 	$numend=255;
