@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Number Counter</title>
 </head>
 <body>
 	<?php
