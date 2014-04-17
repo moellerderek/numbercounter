@@ -19,6 +19,8 @@
 			{
 			echo $num."<br>";
 			}
+
+	?>
 <br>
 </body>
 </html>
