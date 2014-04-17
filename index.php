@@ -5,8 +5,9 @@
 <body>
 	<?php
 		$num = 0;
-			for ($num<255; $num++;)
-		{echo $num;}
+			for ($num<255;)
+			{$num++;
+			echo $num;}
 	?>
 </body>
 </html>
