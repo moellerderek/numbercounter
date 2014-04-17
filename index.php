@@ -15,7 +15,7 @@ echo "<h2>Counting towards". $numend.":"."</h2>";
 			echo $num."<br>";
 			}
 
-print "<br>.<br>";
+print "<br><br>";
 
 echo "<h2>Counting backwards from". $numend.":"."</h2>";
 print "<br>";
