@@ -6,7 +6,10 @@
 <h2>Counting to 255:</h2>
 	<br>
 	<?php
-			for ($num=0; $num<=255; $num++)
+	$numstart=0;
+	$numend=255;
+	
+			for ($num=$startnum; $num<=$endnum; $num++)
 			{
 			echo $num."<br>";
 			}
