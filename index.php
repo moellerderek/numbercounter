@@ -5,11 +5,8 @@
 <body>
 	<?php
 			for ($num=0; $num<=255; $num++)
-			{break;
-			}
 			{
 			echo $num;
-			echo "<br>";
 			}
 	?>
 </body>
