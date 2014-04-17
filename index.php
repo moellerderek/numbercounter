@@ -6,6 +6,7 @@
 <h2>Counting to <?php $num ?>:</h2>
 	<br>
 	<table>
+	<tr>
 	<?php
 			for ($num=0; $num<=255; $num++)
 			{
@@ -14,6 +15,7 @@
 			echo </td>;
 			}
 	?>
+	</tr>
 	</table>
 </body>
 </html>
