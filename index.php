@@ -14,5 +14,6 @@
 			echo </td>;
 			}
 	?>
+	</table>
 </body>
 </html>
