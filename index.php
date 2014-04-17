@@ -9,7 +9,7 @@
 	$numstart=0;
 	$numend=255;
 	
-			for ($num=$startnum; $num<=$endnum; $num++)
+			foreac ($num=$numstart; $num<=$numend; $num++)
 			{
 			echo $num."<br>";
 			}
