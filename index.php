@@ -3,7 +3,7 @@
 <title>Number Counter</title>
 </head>
 <body>
-<h2>Counting to <?php $num ?>:</h2>
+<h2>Counting to 255:</h2>
 	<br>
 	<table>
 	<tr>
