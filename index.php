@@ -5,26 +5,23 @@
 <body>
 <?php
 
-echo "<h2>Counting towards".$numend.":"."</h2>";
-	
 	$numstart=0;
 	$numend=255;
+	
+echo "<h2>Counting towards".$numend.":"."</h2>";
 	
 			for ($num=$numstart; $num<=$numend; $num++)
 			{
 			echo $num."<br>";
 			}
-	?>
 	<br>
 	<br>
-<h2>Counting backwards from <?php echo $numend.":"?></h2>
+echo "<h2>Counting backwards from".$numend.":"</h2>;
 	<br>
-	<?php
 			for ($num=$numend; $num>=$numstart; $num--)
 			{
 			echo $num."<br>";
 			}
-
 	?>
 <br>
 </body>
