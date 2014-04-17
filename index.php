@@ -4,12 +4,15 @@
 </head>
 <body>
 	<?php
+		$num = 0;
 			for ($num=0;
-			$num<255;
+			$num<=255;
 			$num++)
+			{break;
+			}
 			{
 			echo $num;
-			echo <br>;
+			echo "<br>";
 			}
 	?>
 </body>
