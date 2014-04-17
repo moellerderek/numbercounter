@@ -6,7 +6,7 @@
 	<?php
 			for ($num=0; $num<=255; $num++)
 			{
-			echo $num;
+			echo $num."<br>";
 			}
 	?>
 </body>
