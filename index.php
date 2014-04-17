@@ -9,7 +9,7 @@
 			$num++)
 			{
 			echo $num;
-			echo "<br>";
+			echo <br>;
 			}
 	?>
 </body>
