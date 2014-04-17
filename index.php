@@ -16,7 +16,7 @@
 	?>
 	<br>
 	<br>
-<h2>Counting backwards from the same number</h2>
+<h2>Counting backwards from <?php echo $numend.":"?></h2>
 	<br>
 	<?php
 			for ($num=$numend; $num>=$numstart; $num--)
