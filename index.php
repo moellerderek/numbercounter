@@ -3,7 +3,7 @@
 	for (
 		$num<256;
 		$num++)
-		{echo $num;
-		echo <br>;
-		}
+		{echo $num
+		echo <br>
+		;}
 ?>
