@@ -10,7 +10,7 @@
 	<?php
 			for ($num=0; $num<=255; $num++)
 			{
-			echo "<td>"."<br>".$num."<br>"."</td>"."<br>";
+			echo "<td>"..$num."<br>"."</td>"."<br>";
 			}
 	?>
 	</tr>
