@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-echo"<h2>Counting to "$numend".":"."</h2>"."<br>"";
+echo"<h2>Counting to.$numend.":"."</h2>"."<br>"";
 	
 	$numstart=0;
 	$numend=255;
