@@ -9,8 +9,8 @@
 	<?php
 			for ($num=0; $num<=255; $num++)
 			{
-			echo <td>
-			echo $num."<br>"
+			echo <td>;
+			echo $num."<br>";
 			echo </td>;
 			}
 	?>
