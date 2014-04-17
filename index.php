@@ -23,7 +23,7 @@ print "<br>";
 			for ($num=$numend; $num>=$numstart; $num--)
 			{
 			echo $num;
-			}			}
+			}
 	?>
 <br>
 </body>
