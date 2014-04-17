@@ -3,7 +3,7 @@
 <title>Number Counter</title>
 </head>
 <body>
-<h2>Counting to <?php echo "$numend".":"</h2>
+<h2>Counting to <?php echo $numend.":"</h2>;
 	echo"<br>";
 	
 	$numstart=0;
