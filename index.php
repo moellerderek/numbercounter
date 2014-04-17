@@ -4,9 +4,7 @@
 </head>
 <body>
 	<?php
-		$num = 0;
-			for ($num<=255;
-			$num++)
+			for ($num=0; $num<=255; $num++)
 			{break;
 			}
 			{
