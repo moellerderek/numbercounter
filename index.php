@@ -14,8 +14,8 @@ echo "<h2>Counting towards".$numend.":"."</h2>";
 			{
 			echo $num."<br>";
 			}
-	<br>
-	<br>
+echo"<br>"."<br>";
+
 echo "<h2>Counting backwards from".$numend.":"</h2>;
 	<br>
 			for ($num=$numend; $num>=$numstart; $num--)
