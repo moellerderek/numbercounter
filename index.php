@@ -7,16 +7,16 @@
 
   $date = $_GET['date'];
   
-	if (!isset($date)) die("Give me a number boo");
-	if ($date < 0) die ("Yo, digits are not valid, bro...");
+	if (!isset($num)) die("Give me a number boo");
+	if ($num < 0) die ("Yo, digits are not valid, bro...");
 	
-	$date = $numend;
-	$numstart=0;
+	$num = $numend;
+
 
 	
 echo "<h2>Counting towards ".$date.":"."</h2>";
 	
-			for ($date>=$numstart; $date=$numend; $numend++)
+			for ($num=$numend; $numend>=0; $numend++)
 			{
 			echo $numend."<br>";
 			}
