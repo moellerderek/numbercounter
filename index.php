@@ -14,7 +14,7 @@
 
 
 	
-echo "<h2>Counting towards ".$date.":"."</h2>";
+echo "<h2>Counting towards ".$num.":"."</h2>";
 	
 			for ($num=$numend; $numend>=0; $numend++)
 			{
