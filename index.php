@@ -5,13 +5,14 @@
 <body>
 <?php
 
-  $num = $_GET['number'];
+  $date = $_GET['number'];
   
-  if (!isset($num)) die("Give me a number boo");
-  if ($num < 0) die("Yo, digits are not valid, bro...");
-
+  if (!isset($date)) die("Give me a number boo");
+  if ($date < 0) die("Yo, digits are not valid, bro...");
+	
+	$date = $numend;
 	$numstart=0;
-	$numend=$num;
+
 	
 echo "<h2>Counting towards ".$numend.":"."</h2>";
 	
