@@ -11,7 +11,7 @@
   if ($num < 0) die("Yo, digits are not valid, bro...");
 
 	$numstart=0;
-	$numend=255;
+	$numend=$num;
 	
 echo "<h2>Counting towards ".$numend.":"."</h2>";
 	
