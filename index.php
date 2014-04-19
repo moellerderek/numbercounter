@@ -5,7 +5,7 @@
 <body>
 <?php
 
-  $date = $_GET['date'];
+  $num = $_GET['num'];
   
 	if (!isset($num)) die("Give me a number boo");
 	if ($num < 0) die ("Yo, digits are not valid, bro...");
