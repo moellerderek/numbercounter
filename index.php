@@ -5,10 +5,10 @@
 <body>
 <?php
 
-  $date = $_GET['number'];
+  $date = $_GET['date'];
   
-  if (!isset($date)) die("Give me a number boo");
-if ($date < 0) die ("Yo, digits are not valid, bro...");
+	if (!isset($date)) die("Give me a number boo");
+	if ($date < 0) die ("Yo, digits are not valid, bro...");
 	
 	$date = $numend;
 	$numstart=0;
