@@ -10,11 +10,11 @@
 	if (!isset($num)) die("Give me a number boo");
 	if ($num < 0) die ("Yo, digits are not valid, bro...");
 	
-	$num = $numend;
+	$num = $startnum;
 
 echo "<h2>Counting towards ".$num.":"."</h2>";
 	
-			for ($numend =>0; $numend++)
+			for ($startnum != 0; $startnum =>0; $numend++)
 			{
 			echo $numend."<br>";
 			}
