@@ -12,11 +12,9 @@
 	
 	$num = $numend;
 
-
-	
 echo "<h2>Counting towards ".$num.":"."</h2>";
 	
-			for ($num =>0; $numend++)
+			for ($numend =>0; $numend++)
 			{
 			echo $numend."<br>";
 			}
