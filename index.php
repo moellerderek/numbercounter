@@ -14,7 +14,7 @@
 
 echo "<h2>Counting towards ".$num.":"."</h2>";
 	
-			if ($startnum <= num);
+			if ($startnum => 0);
             {
                $startnum++;
             }
