@@ -16,9 +16,9 @@
 	
 echo "<h2>Counting towards ".$numend.":"."</h2>";
 	
-			for ($num=$numstart; $num<=$numend; $num++)
+			for ($date<=$numstart; $date=$numend; $numend++)
 			{
-			echo $num."<br>";
+			echo $numend."<br>";
 			}
 
 print "<br><br>";
