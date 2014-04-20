@@ -22,8 +22,8 @@ echo "<div class="result">";
 			{
 			echo "$i"."<br>";	
 			}
-	</div>
-            			
+echo "</div>";
+			
 echo "<br><br>";
 
 echo "<h2>Counting backwards from ".$num.":"."</h2>";
