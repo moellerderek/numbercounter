@@ -1,8 +1,13 @@
 <html>
 <head>
 <title>Number Counter</title>
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 </head>
 <body>
+{
+  font-family: 'Alike', Sans Serif;
+}
 <?php
 
   $num = $_GET['num'];
