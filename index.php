@@ -12,7 +12,7 @@
 	
 	$num = $startnum;
 
-echo "<h2>Counting towards ".$num.":"."</h2>";
+echo "<h2>Counting towards ".$startnum.":"."</h2>";
 	
 			//if ($startnum => 0);
             {
@@ -22,7 +22,7 @@ echo "<h2>Counting towards ".$num.":"."</h2>";
             			
 //print "<br><br>";
 
-echo "<h2>Counting backwards from ".$num.":"."</h2>";
+echo "<h2>Counting backwards from ".$startnum.":"."</h2>";
 print "<br>";
 
 			//for ($num=$numend; $num>=$numstart; $num--)
