@@ -16,13 +16,13 @@
 	
 
 echo "<h2>Counting towards ".$num.":"."</h2>";
-print "<div class="result">";
+print "<div class="result">"
 	
 			for ($i = 0; $i <= $num; $i++) 
 			{
 			echo "$i"."<br>";	
 			}
-echo "</div>";
+"</div>";
 			
 echo "<br><br>";
 
