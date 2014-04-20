@@ -7,8 +7,8 @@
 
   $num = $_GET['num'];
   
-	if (!isset($num)) die("Give me a number boo");
-	if ($num < 0) die ("Yo, digits are not valid, bro...");
+	if (!isset($num)) die("Give me a number, boo");
+	if ($num < 0) die ("Yo, those digits are not valid, bro...");
 	
 	$num = $startnum;
 
@@ -25,11 +25,10 @@ echo "<h2>Counting towards ".$num.":"."</h2>";
 echo "<h2>Counting backwards from ".$num.":"."</h2>";
 print "<br>";
 
-			for ($num=$numend; $num>=$numstart; $num--)
-			{
-			
-			echo $num."<br>";
-			}
+			//for ($num=$numend; $num>=$numstart; $num--)
+			//{
+			//echo $num."<br>";
+			//}
 	?>
 <br>
 </body>
