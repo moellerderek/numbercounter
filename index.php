@@ -24,9 +24,9 @@ print "<br><br>";
 echo "<h2>Counting backwards from ".$num.":"."</h2>";
 print "<br>";
 
-			//for ($i = 0; $i = $num; $i--) 
+			for ($i = $num; $i > 0; $i--) 
 			{
-			//echo "$i"."<br>";	
+			echo "$i"."<br>";	
 			}
 	?>
 <br>
