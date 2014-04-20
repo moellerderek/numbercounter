@@ -16,17 +16,16 @@
 	
 
 echo '<h2>Counting towards '.$num.':'.'</h2>';
-echo '<div class="answer">'
+
 	
 			for ($i = 0; $i <= $num; $i++) 
 			{
 			echo '$i'.'<br>';	
 			}
-'</div>';
 			
 echo '<br><br>';
 
-echo '<h2>Counting backwards from ".$num.":"."</h2>';
+echo '<h2>Counting backwards from '.$num.':'.'</h2>';
 echo '<br>';
 
 			for ($i = $num; $i >= 0; $i--) 
