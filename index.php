@@ -21,13 +21,13 @@ echo "<h2>Counting towards ".$num.":"."</h2>";
             			
 print "<br><br>";
 
-echo "<h2>Counting backwards from ".$startnum.":"."</h2>";
+echo "<h2>Counting backwards from ".$num.":"."</h2>";
 print "<br>";
 
-			//for ($num=$numend; $num>=$numstart; $num--)
-			//{
-			//echo $num."<br>";
-			//}
+			for ($i = 0; $i <= $num; $i--) 
+			{
+			echo "$i"."<br>";	
+			}
 	?>
 <br>
 </body>
