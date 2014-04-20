@@ -14,10 +14,10 @@
 
 echo "<h2>Counting towards ".$num.":"."</h2>";
 	
-			for ($i = $num; $i >= $num ; $i++);
+			for ($i = 0; $i < count; $i++) 
 			{
-			echo "$i"."<br>";
-            }
+			echo "$i"."<br>";	
+			}
             			
 print "<br><br>";
 
