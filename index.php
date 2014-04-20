@@ -15,8 +15,8 @@
 	
 	
 
-echo "<h2>Counting towards ".$num.":"."</h2>";
-print '<div class="answer">'
+echo '<h2>Counting towards ".$num.":"."</h2>';
+echo '<div class="answer">'
 	
 			for ($i = 0; $i <= $num; $i++) 
 			{
@@ -24,10 +24,10 @@ print '<div class="answer">'
 			}
 "</div>";
 			
-echo "<br><br>";
+echo '<br><br>';
 
-echo "<h2>Counting backwards from ".$num.":"."</h2>";
-print "<br>";
+echo '<h2>Counting backwards from ".$num.":"."</h2>';
+echo '<br>';
 
 			for ($i = $num; $i >= 0; $i--) 
 			{
