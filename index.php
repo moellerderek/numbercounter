@@ -20,7 +20,7 @@ echo '<h2>Counting towards '.$num.':'.'</h2>';
 	
 			for ($i = 0; $i <= $num; $i++) 
 			{
-			echo '$i'.'<br>';	
+			echo "$i"."<br>";	
 			}
 			
 echo '<br><br>';
