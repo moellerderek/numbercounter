@@ -16,7 +16,7 @@
 	
 
 echo "<h2>Counting towards ".$num.":"."</h2>";
-print "<div class="result">"
+print '<div class="answer">'
 	
 			for ($i = 0; $i <= $num; $i++) 
 			{
