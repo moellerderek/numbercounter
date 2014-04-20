@@ -5,9 +5,12 @@
 <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 </head>
 <body>
-{
-  font-family: 'Alike', Sans Serif;
-}
+<style media="screen" type="text/css">
+
+font-family: 'Alike', Sans Serif;
+
+</style>
+
 <?php
 
   $num = $_GET['num'];
