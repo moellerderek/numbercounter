@@ -10,17 +10,16 @@
 	if (!isset($num)) die("Give me a number, boo");
 	if ($num < 0) die ("Yo, those digits are not valid, bro...");
 	
-	$num = $startnum;
-
-echo "<h2>Counting towards ".$startnum.":"."</h2>";
 	
-			//if ($startnum => 0);
-            {
-               //$startnum++;
+
+echo "<h2>Counting towards ".$num.":"."</h2>";
+	
+			for ($num = 0; $num <= $num; $num++) {
+						
+            echo "$num"."<br>";
             }
-            //echo "$num"."<br>";
             			
-//print "<br><br>";
+print "<br><br>";
 
 echo "<h2>Counting backwards from ".$startnum.":"."</h2>";
 print "<br>";
