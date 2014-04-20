@@ -9,6 +9,7 @@
 <style media="screen" type="text/css">
 
 font-family: 'Ruluko', sans-serif;
+margin: 10%;
 
 </style>
 
