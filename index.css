@@ -1,12 +1,14 @@
 }
 .to
 {
+	margin-left: 100px;
 	width: 300px;
 	float: left;
 }
 
 .from
 {
+	margin-right: 200px;
 	width: 200px;
 	float: right;
 }
