@@ -6,7 +6,7 @@
 <?php
         $num = $_GET['num'];
 
-echo "<div class="to">"."<h2>"."Counting Towards".$num."</h2>";
+echo "<h2>"."Counting Towards".$num."</h2>";
   
 		if (!isset($num)) die("Give me a number, boo");
 		if ($num < 0) die ("Yo, those digits are not valid, bro...");
@@ -18,7 +18,7 @@ echo "<div class="to">"."<h2>"."Counting Towards".$num."</h2>";
 			
 echo "<br>"."<br>";
 
-echo "<div class="from">"."<h2> Counting backwards from ".$num.":"."</h2>"."<br>";
+echo "<h2>"."Counting backwards from ".$num.":"."</h2>"."<br>";
 
 			for ($i = $num; $i >= 0; $i--) 
 			{
