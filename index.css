@@ -1,14 +1,14 @@
-<html>
-<head>
-</head>
-<body>
-<style>
-body {
+body 
+{
 margin: 20px;
 background: gray;
 font-family: 'Ruluko', sans-serif;
 margin: 50px;
 }
-</style>
-</body>
-</html>
+
+.add
+{
+	width: 400px;
+	float: left;
+	overflow: hidden;
+}
