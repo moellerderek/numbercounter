@@ -58,7 +58,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
         <?php
 
         include ('counter-pos.php');
@@ -66,7 +66,7 @@
 
         ?>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <?php
 
         include ('counter-neg.php');
