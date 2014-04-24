@@ -14,23 +14,25 @@
 	if (!isset($num)) die("Give me a number, boo");
 	if ($num < 0) die ("Yo, those digits are not valid, bro...");
 
-echo '<h2>Counting towards '.$num.':'.'</h2>';
+echo '<div class='to'><h2>Counting towards '.$num.':'.'</h2>';
 
 			for ($i = 0; $i <= $num; $i++) 
 			{
 			echo "$i"."<br>";	
 			}
 			
-echo "<br><br>";
+echo "</div><br><br>";
 
-echo '<h2>Counting backwards from '.$num.':'.'</h2>';
+echo "<div class='from'><h2>Counting backwards from '.$num.':'.'</h2>";
 echo '<br>';
 
 			for ($i = $num; $i >= 0; $i--) 
 			{
 			echo "$i"."<br>";	
 			}
-	?>
+echo '</div>';
+
+?>
 <br>
 </body>
 </html>
