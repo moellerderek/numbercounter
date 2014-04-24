@@ -62,7 +62,6 @@
         <?php
 
         include ('counter-pos.php');
-        return $num;
 
         ?>
       </div>
@@ -70,6 +69,7 @@
         <?php
 
         include ('counter-neg.php');
+
         ?>
       </div>
 
