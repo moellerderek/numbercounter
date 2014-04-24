@@ -63,14 +63,6 @@
 
         include ('counter-pos.php');
         return $num;
-        
-        ?>
-      </div>
-      <div class="col-md-4">
-        <?php
-
-        include ('counter-prime.php');
-        
 
         ?>
       </div>
@@ -78,15 +70,10 @@
         <?php
 
         include ('counter-neg.php');
-      ?>
+        ?>
       </div>
 
-      <div class="col-md-4">
-        <?php
-
-        include ('counter-prime.php');
-      ?>
-      </div>
     </div>
+  </div>
 </body>
 </html>
