@@ -6,10 +6,10 @@
 
 <?php
 
+echo "<h2>"."Checking for Primes ".$num."</h2>";
+
         $n = $_GET['num'];
         
-
-
 function prima($n){
 
   for($i=1;$i<=$n;$i++){  //numbers to be checked as prime
