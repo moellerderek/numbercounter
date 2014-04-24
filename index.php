@@ -61,11 +61,17 @@
         <div class="col-md-6">
         <?php
 
-        include 'counter.php';
+        include ('counter-pos.php');
 
         ?>
-        <br>
+      </div>
+      <div class="col-md-6">
+        <?php
+
+        include ('counter-neg.php');
+      ?>
       </div>
     </div>
+    
 </body>
 </html>
