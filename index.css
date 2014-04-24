@@ -5,3 +5,9 @@ background: gray;
 font-family: 'Ruluko', sans-serif;
 margin: 50px;
 }
+
+.to
+{
+	float: left;
+	overflow: hidden;
+}
