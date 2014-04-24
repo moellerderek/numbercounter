@@ -6,9 +6,9 @@
 
 <?php
 
-        $num = $_GET['num'];
+        $num as $n = $_GET['num'];
 
-function prima($num){
+function prima($n){
 
   for($i=1;$i<=$n;$i++){  //numbers to be checked as prime
 
@@ -28,7 +28,7 @@ function prima($num){
                print $i." is Prime <br/>";
         }
     }
-} 
+}
 
 prima($num);  //find prime numbers from 1-20
 
