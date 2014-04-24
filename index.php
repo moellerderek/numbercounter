@@ -58,18 +58,16 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-<br>
-<?php
+        <div class="col-md-6">
+        <?php
+        echo "<h2>"."Counting Towards".$num."</h2>"."<p>";
 
-  $num = $_GET['num'];
+$num = $_GET['num'];
   
-	if (!isset($num)) die("Give me a number, boo");
-	if ($num < 0) die ("Yo, those digits are not valid, bro...");
+		if (!isset($num)) die("Give me a number, boo");
+		if ($num < 0) die ("Yo, those digits are not valid, bro...");
 
-echo '<div class="to">'.'<h2>Counting towards '.$num.':'.'</h2>';
+'<div class="to">'.'<h2>Counting towards '.$num.':'.'</h2>';
 
 			for ($i = 0; $i <= $num; $i++) 
 			{
