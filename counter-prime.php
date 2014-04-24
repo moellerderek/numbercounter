@@ -8,7 +8,6 @@
 
         $num = $_GET['num'];
         
-foreach ($num) {
 	function isPrime($num) {
     //1 is not prime. See: http://en.wikipedia.org/wiki/Prime_number#Primality_of_one
     if($num == 1)
