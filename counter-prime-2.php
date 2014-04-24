@@ -6,7 +6,7 @@
 
 <?php
 
-echo "<h2>"."Checking for Primes for the".$num."</h2>";
+echo "<h2>"."Checking for Primes for the number ".$num."</h2>";
 
         $n = $_GET['num'];
         
