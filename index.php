@@ -67,7 +67,7 @@ $num = $_GET['num'];
 		if (!isset($num)) die("Give me a number, boo");
 		if ($num < 0) die ("Yo, those digits are not valid, bro...");
 
-'<div class="to">'.'<h2>Counting towards '.$num.':'.'</h2>';
+echo '<div class="to">'.'<h2>Counting towards '.$num.':'.'</h2>';
 
 			for ($i = 0; $i <= $num; $i++) 
 			{
