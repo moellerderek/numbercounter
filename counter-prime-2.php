@@ -6,7 +6,9 @@
 
 <?php
 
-        $num as $n = $_GET['num'];
+        $n = $_GET['num'];
+        
+
 
 function prima($n){
 
@@ -30,7 +32,7 @@ function prima($n){
     }
 }
 
-prima($num);  //find prime numbers from 1-20
+prima($n);  //find prime numbers from 1-20
 
 ?>
 </body>
