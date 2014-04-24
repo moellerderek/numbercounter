@@ -21,9 +21,9 @@ echo '<div class="to">'.'<h2>Counting towards '.$num.':'.'</h2>';
 			echo "$i"."<br>";	
 			}
 			
-echo "</div><br><br>";
+echo "</div>"."<br><br>";
 
-echo '<div class='from'>'.'<h2>Counting backwards from '.$num.':'.'</h2>';
+echo '<div class="from">'.'<h2>Counting backwards from '.$num.':'.'</h2>';
 echo '<br>';
 
 			for ($i = $num; $i >= 0; $i--) 
