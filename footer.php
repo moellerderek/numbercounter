@@ -1,6 +1,8 @@
 <html>
 <title>Number Counter</title>
-<head></head>
+<head>
+<link href="/css/sticky-footer.css" rel="stylesheet">
+</head>
 <body>
 </body>
 <footer>
