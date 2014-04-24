@@ -1,14 +1,16 @@
 <html>
-<head>
 <title>Number Counter</title>
+<head>
+<!-- My own stylesheet -->
 <link href="/css/index.css" rel="stylesheet">
+<!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
 <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+<link href="jumbotron.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -66,4 +68,12 @@
     </div>
   </div>
 </body>
+<div class="footer">
+
+    <?php
+
+    include ("footer.php");
+
+    ?>
+  </div>
 </html>
