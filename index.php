@@ -61,7 +61,7 @@
         <div class="col-md-6">
         <?php
 
-        include ('counter.php');
+        include 'counter.php';
 
         ?>
         <br>
