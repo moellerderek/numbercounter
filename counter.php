@@ -6,7 +6,7 @@
 <?php
         $num = $_GET['num'];
 
-echo "<h2>"."Counting Towards".$num."</h2>";
+echo "<h2>"."Counting Towards ".$num."</h2>";
   
 		if (!isset($num)) die("Give me a number, boo");
 		if ($num < 0) die ("Yo, those digits are not valid, bro...");
