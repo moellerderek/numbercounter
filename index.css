@@ -5,3 +5,10 @@ background: gray;
 font-family: 'Ruluko', sans-serif;
 margin: 50px;
 }
+
+.positive
+{
+	width: 400px;
+	float: left;
+	overflow: hidden;
+}
