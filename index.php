@@ -58,14 +58,22 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
+        <?php
+        
+        include ('counter-pos.php');
+        
+        ?>
+      </div>
+
+      <div class="col-md-4">
         <?php
 
-        include ('counter-pos.php');
+        include ('counter-prime-2.php');
 
         ?>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <?php
 
         include ('counter-neg.php');
