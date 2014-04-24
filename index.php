@@ -60,9 +60,8 @@
       <div class="row">
         <div class="col-md-6">
         <?php
+        $num = $_GET['num'];
         echo "<h2>"."Counting Towards".$num."</h2>"."<p>";
-
-$num = $_GET['num'];
   
 		if (!isset($num)) die("Give me a number, boo");
 		if ($num < 0) die ("Yo, those digits are not valid, bro...");
