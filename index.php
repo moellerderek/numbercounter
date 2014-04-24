@@ -62,7 +62,8 @@
         <?php
 
         include ('counter-pos.php');
-
+        return $num;
+        
         ?>
       </div>
       <div class="col-md-4">
