@@ -5,21 +5,24 @@
 <body>
 
 <?php
-foreach ($num as $result)
-	function isPrime($result) {
+
+        $num = $_GET['num'];
+        
+foreach ($num) {
+	function isPrime($num) {
     //1 is not prime. See: http://en.wikipedia.org/wiki/Prime_number#Primality_of_one
     if($num == 1)
         return false;
 
     //2 is prime (the only even number that is prime)
-    if($result == 2)
+    if($num == 2)
         return true;
 
     /**
      * if the number is divisible by two, then it's not prime and it's no longer
      * needed to check other even numbers
      */
-    if($result % 2 == 0) {
+    if($num % 2 == 0) {
         return false;
     }
 
@@ -34,6 +37,7 @@ foreach ($num as $result)
     }
 
     return true;
+}
 ?>
 </body>
 </html>
