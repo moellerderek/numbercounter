@@ -8,14 +8,14 @@ margin: 50px;
 
 .to
 {
-	width: 400px;
+	width: 200px;
 	float: left;
 	overflow: hidden;
 }
 
 .from
 {
-	width: 400px;
-	float: right;
+	width: 200px;
+	float: center;
 	overflow: hidden;
 }
