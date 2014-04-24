@@ -74,16 +74,16 @@ $num = $_GET['num'];
 			echo "$i"."<br>";	
 			}
 			
-echo "</div>"."<br>";
+echo "</div>"."</div>"."<br>";
 
-echo '<div class="from">'.'<h2>Counting backwards from '.$num.':'.'</h2>';
+echo '<div class="col-md-6">''<div class="from">'.'<h2>Counting backwards from '.$num.':'.'</h2>';
 echo '<br>';
 
 			for ($i = $num; $i >= 0; $i--) 
 			{
 			echo "$i"."<br>";	
 			}
-echo '</div>';
+echo '</div>.'</div>';
 
 ?>
 <br>
