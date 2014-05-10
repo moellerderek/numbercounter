@@ -40,10 +40,10 @@
         </div>
     </div>
 <br>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-6">
         <?php
         
         include ('counter-pos.php');
@@ -51,14 +51,14 @@
         ?>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-6">
         <?php
 
         include ('counter-prime-2.php');
 
         ?>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-6">
         <?php
 
         include ('counter-neg.php');
