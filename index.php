@@ -20,6 +20,11 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<?php
+
+  include ('functions.php');
+
+?>
 </head>
 
 <body>
@@ -40,7 +45,7 @@
         callJumboTron("Input Number Generator","This project is just to use a get request to count numbers from and to a defined number in the url.");
         
         ?>
-        
+
     </div>
     </div>
 <br>
