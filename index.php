@@ -10,7 +10,7 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-<link href="jumbotron.css" rel="stylesheet">
+<link href="/css/jumbotron.css" rel="stylesheet">
 <link href="/css/sticky-footer.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,17 +30,16 @@
 <body>
       <?php
 
-        callMasthead('Unput Number Generator');
+        callMasthead("Input Number Generator");
 
       ?>
-    </div>
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <?php
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <?php
 
         callJumboTron("Input Number Generator","This project is just to use a get request to count numbers from and to a defined number in the url.");
         
-        ?>
+      ?>
 <br>
     <div class="container-fluid">
       <!-- Example row of columns -->
