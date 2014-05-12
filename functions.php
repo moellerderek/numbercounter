@@ -14,12 +14,12 @@ echo '</div>';
 
 function callMasthead($title) {
 echo '<div class="masthead"';
-echo '<div class="navbar navbar-inverse navbar-fixed-top'.'role="navigation">';
+echo '<div class="navbar navbar-inverse navbar-fixed-top role="navigation">';
 echo '<div class="container">';
 echo '<div class="navbar-header">';
-echo '<button type="button".'class='.'"navbar-toggle"'.'data-toggle='."collapse"'.'data-target'.'='.'".navbar-collapse">';
+echo '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">';
 
-echo '<span class='.'"sr-only"'.'>Toggle navigation</span>';
+echo '<span class="sr-only">Toggle navigation</span>';
     echo '<span class="icon-bar"></span>';
     echo '<span class="icon-bar"></span>';
     echo '<span class="icon-bar"></span>';
