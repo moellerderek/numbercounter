@@ -35,9 +35,13 @@
         <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Let's count some numbers!</h1>
-        <p>This project is just to use a get request to count numbers from and to a defined number in the url.</p>
-        </div>
+        <?php
+
+        callJumboTron("Input Number Generator","This project is just to use a get request to count numbers from and to a defined number in the url.");
+        
+        ?>
+        
+    </div>
     </div>
 <br>
     <div class="container-fluid">
