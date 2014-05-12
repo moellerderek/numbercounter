@@ -28,11 +28,9 @@
 </head>
 
 <body>
-    <div class="masthead">
-
       <?php
 
-        include ("masthead.php");
+        callMasthead('Unput Number Generator');
 
       ?>
     </div>
