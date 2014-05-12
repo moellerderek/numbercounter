@@ -13,6 +13,7 @@ echo '</div>';
 
 
 function callMasthead($title) {
+echo '<style>'.'<link href='.'"/css/bootstrap.min.css"'.'rel="'.'stylesheet"'.'>';	
 echo '<div class='.'"masthead"';
 	echo '<div class='.'"navbar navbar-inverse navbar-fixed-top role='.'"navigation">';
 		echo '<div class='.'"container"'.'>';
