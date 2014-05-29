@@ -6,13 +6,9 @@
 <!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Custom CSS -->
+<link href="/css/bootstrap-derek.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-<link href="/css/jumbotron.css" rel="stylesheet">
-<link href="/css/sticky-footer.css" rel="stylesheet">
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,7 +26,7 @@
 <body>
       <?php
 
-        callMasthead("Input Number Generator");
+        callMasthead("Input Number Generator", "voteforderek.azurewebsites.net","#", "", "http://derek-php-test01.azurewebsites.net/?date=19821008", "Birthday Calculator");
 
       ?>
 
