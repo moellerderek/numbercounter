@@ -6,8 +6,14 @@
 <!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
+
 <!-- Bootstrap Custom CSS -->
-<link href="/css/bootstrap-derek.css" rel="stylesheet">
+	<link href="/css/bootstrap-derek.css" rel="stylesheet">
+
+<!-- Bootstrap Core CSS -->
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+
 
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
