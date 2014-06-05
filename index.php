@@ -32,7 +32,7 @@
 <body>
       <?php
 
-        callMasthead("Input Number Generator", "voteforderek.azurewebsites.net","#", "", "http://derek-php-test01.azurewebsites.net/?date=19821008", "Birthday Calculator");
+        callMasthead("Input Number Generator", "voteforderek.azurewebsites.net", "", "http://derek-php-test01.azurewebsites.net/?date=19821008", "Birthday Calculator");
 
       ?>
 
